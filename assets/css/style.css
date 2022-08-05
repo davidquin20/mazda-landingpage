@@ -1075,7 +1075,7 @@ section {
 
 .services .icon-box i {
   float: left;
-  color: #f6b024;
+  color: #DC292C;
   font-size: 40px;
   line-height: 0;
 }
@@ -1088,7 +1088,7 @@ section {
 }
 
 .services .icon-box h4 a {
-  color: #05579e;
+  color: #DC292C;
   transition: 0.3s;
 }
 
