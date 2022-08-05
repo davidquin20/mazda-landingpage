@@ -737,7 +737,7 @@ section {
   left: 0;
   top: 2px;
   font-size: 20px;
-  color: #0880e8;
+  color: #DC292C;
   line-height: 1;
 }
 
@@ -1088,12 +1088,12 @@ section {
 }
 
 .services .icon-box h4 a {
-  color: #DC292C;
+  color: #000;
   transition: 0.3s;
 }
 
 .services .icon-box h4 a:hover {
-  color: #0880e8;
+  color: #DC292C;
 }
 
 .services .icon-box p {
