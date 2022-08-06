@@ -1883,12 +1883,13 @@ textarea:focus, input:focus, input[type]:focus {
 }
 
 .blog .entry .entry-img {
-  max-height: 440px;
+  max-height: 430px;
   margin: -30px -30px 20px -30px;
   overflow: hidden;
 }
 
 .blog .entry .entry-title {
+  text-align: center;
   font-size: 28px;
   font-weight: bold;
   padding: 0;
@@ -1896,13 +1897,10 @@ textarea:focus, input:focus, input[type]:focus {
 }
 
 .blog .entry .entry-title a {
-  color: #054a85;
+  color: #DC292C;
   transition: 0.3s;
 }
 
-.blog .entry .entry-title a:hover {
-  color: #f6b024;
-}
 
 .blog .entry .entry-meta {
   margin-bottom: 15px;
@@ -1937,16 +1935,17 @@ textarea:focus, input:focus, input[type]:focus {
 
 .blog .entry .entry-content p {
   line-height: 24px;
+  text-align: center;
 }
 
 .blog .entry .entry-content .read-more {
   -moz-text-align-last: right;
-  text-align-last: right;
+  text-align-last: center ;
 }
 
 .blog .entry .entry-content .read-more a {
   display: inline-block;
-  background: #f6b024;
+  background: #DC292C;
   color: #fff;
   padding: 6px 20px;
   transition: 0.3s;
@@ -1955,7 +1954,7 @@ textarea:focus, input:focus, input[type]:focus {
 }
 
 .blog .entry .entry-content .read-more a:hover {
-  background: #f7b93c;
+  background: #E25254;
 }
 
 .blog .entry .entry-content h3 {
