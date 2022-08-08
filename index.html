@@ -471,11 +471,8 @@
                 <h4>Call:</h4>
                 <p>+57 5589 55488 55s</p>
               </div>
-
             </div>
-
           </div>
-
           <div class="col-lg-6 mt-5 mt-lg-0" data-aos="fade-left" data-aos-delay="100">
 
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
@@ -488,29 +485,60 @@
                 </div>
               </div>
               <div class="form-group mt-3">
+                <select lass="form-select" name="documento" id="documento">
+                  <option selected>Tipo de documento</option>
+                  <option value="">Cedula de ciudania</option>
+                  <option value="">Cedula extranjeria</option>
+                  <option value="">Cedula diplomatico</option>
+                  <option value="">Pasaporte diplomatico</option>
+                  <option value="">Pasaporte</option>
+                </select>
+              </div>
+              <div class="form-group mt-3">
+                <input type="number" class="form-control" name="subject" id="subject" placeholder="Numero de documento" required>
+              </div>
+              <div class="form-group mt-3">
                 <input type="email" class="form-control" name="email" id="email" placeholder="Correo electronico" required>
               </div>
               <div class="form-group mt-3">
                 <input type="number" class="form-control" name="subject" id="subject" placeholder="Celular" required>
               </div>
-              <div class="form-group mt-3" role="group" aria-label="#">
-                <p>Elije por donde quieres que te contactemos:</p>
-                <button type="button" class="btn btn-outline-danger">Email</button>
-                <button type="button" class="btn btn-outline-danger">Whatsapp</button>
-                <button type="button" class="btn btn-outline-danger">Llamada</button>
+              <div  class="form-group mt-3">
+                <p>Como quieres que te contactemos:</p>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                  <label class="form-check-label" for="inlineCheckbox1">Llamada</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                  <label class="form-check-label" for="inlineCheckbox2">Whatsapp</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                  <label class="form-check-label" for="inlineCheckbox3">Llamada</label>
+                </div>
               </div>
-              <div class="form-group mt-3" role="group" aria-label="#">
+
+              <div  class="form-group mt-3">
                 <p>Que servicio quieres consultar:</p>
-                <button type="button" class="btn btn-outline-danger">Agenda tu prueba de manejo</button>
-                <button type="button" class="btn btn-outline-danger">Cotiza tu vehiculo</button>
-                <button type="button" class="btn btn-outline-danger">Conoce mas de tu vehiculo</button>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input check-ajustar" type="checkbox" id="inlineCheckbox1" value="option1">
+                  <label class="form-check-label" for="inlineCheckbox1">Agenda tu prueba de manejo</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                  <label class="form-check-label" for="inlineCheckbox2">Cotiza tu vehiculo</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                  <label class="form-check-label" for="inlineCheckbox3">Conoce mas de tu vehiculo</label>
+                </div>
               </div>
               <div class="form-group mt-3">
                 <textarea class="form-control estilota" name="message" rows="5" placeholder="Mensaje" required></textarea>
               </div>
               <div class="text-center"><button type="submit" onclick="location.href='thank-you-page.html'">Enviar</button></div>
             </form>
-
           </div>
 
         </div>
