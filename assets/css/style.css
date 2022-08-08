@@ -2351,3 +2351,7 @@ textarea:focus, input:focus, input[type]:focus {
   width: 20px !important;
   height: 20px !important;
 }
+.select-text{
+  font-weight: 350 !important;
+  font-size: 1rem !important;
+}
