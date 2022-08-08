@@ -2346,7 +2346,8 @@ textarea:focus, input:focus, input[type]:focus {
   font-size: 13px;
   color: #fff;
 }
-.check-ajustar{
-  width: 10px;
-  height: 10px;
+
+.checkbox-input{
+  width: 20px !important;
+  height: 20px !important;
 }
